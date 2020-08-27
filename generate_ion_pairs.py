@@ -1,7 +1,9 @@
 import copy, cctk, argparse, sys, re
 import numpy as np
 
-parser = argparse.ArgumentParser(prog="resubmit.py")
+# usage: python generate_ion_pairs.py -n 100 -r 10 cation.out anion.out cation_anion
+
+parser = argparse.ArgumentParser(prog="generate_ion_pairs.py")
 parser.add_argument("--num", "-n", type=int, default=25, help="Number of conformations to generate.")
 parser.add_argument("--radius", "-r", type=float, default=8, help="Radius of imaginary sphere to distribute pairs on.")
 parser.add_argument("--optimize", "-o", action="store_true", help="Whether or not to pre-optimize pairs with ``xtb``.")
