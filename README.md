@@ -1,7 +1,7 @@
 # utilities
 _useful scripts for computational chemistry_
 
-Most scripts will probably require _cctk_ and a working Python 3.7+ installation.
+Most scripts will probably require [_cctk_](https://cctk.readthedocs.io/en/latest/) and a working Python 3.7+ installation.
 
 ### Contents:
 
