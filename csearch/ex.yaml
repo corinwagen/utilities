@@ -1,0 +1,7 @@
+constraints:
+    constraint1: 17 31 auto
+    constraint1: 30 31 auto
+input_geom: pictet_spengler.gjf
+directory: crest
+logfile: crest.log
+noncovalent: false
